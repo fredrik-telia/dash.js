@@ -201,7 +201,7 @@ import {HTTPRequest} from '../streaming/vo/metrics/HTTPRequest';
  * @typedef {Object} StreamingSettings
  * @property {number} [metricsMaxListDepth=1000] Maximum list depth of metrics.
  * @property {number} [abandonLoadTimeout=10000]
- * A timeout value in seconds, which during the ABRController will block switch-up events.
+ * A timeout value in milliseconds, which during the ABRController will block switch-up events.
  * This will only take effect after an abandoned fragment event occurs.
  * @property {number} [liveDelayFragmentCount=4]
  * Changing this value will lower or increase live stream latency.  The detected segment duration will be multiplied by this value
